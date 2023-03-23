@@ -1,6 +1,6 @@
 ### 创建 Express 服务方法
-1. install node => cnpm install node
-1. install express => cnpm install express
+1. install node: `cnpm install node`
+1. install express: `cnpm install express`
 1. 
 
 
