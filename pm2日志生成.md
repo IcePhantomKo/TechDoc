@@ -69,7 +69,15 @@ pm2 set pm2-logrotate:rotateInterval "0 0 * * 8"
 
 * `pm2 startup`：产生 init 脚本，保持进程活着。即可以设置为开机自启（先 pm2 save 保存当前进程状态，再 pm2 startup 生成开机自启动的命令）。
 
+##### 8. 开机自启动
+* windows不支持直接 `$ pm2 startup`
+* 需要使用其他库生成自启动脚本
+```
+npm install pm2-windows-startup -g
+pm2-startup install
+```
   
-##### 8. 资源整理自:
+##### 9. 资源整理自:
 * https://blog.csdn.net/u013196396/article/details/86065202
 * https://blog.csdn.net/weixin_46560589/article/details/128371807
+* https://www.jianshu.com/p/f4e81412d4f2
