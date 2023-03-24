@@ -12,9 +12,9 @@ let svc = new Service({
 	name:'node_liveroom',
 	description: '服务',
 	script:'./app.js',	//node项目要启动的文件路径
-	wait:'1',				//程序崩溃后重启的时间间隔
-	grow:'0.25',	//重启等待时间成长值，比如第一次为1秒，第二次为1.25秒
-	maxRestarts:'40'		//60秒内最大重启次数
+	wait:'1',		//程序崩溃后重启的时间间隔
+	grow:'0.25',		//重启等待时间成长值，比如第一次为1秒，第二次为1.25秒
+	maxRestarts:'40'	//60秒内最大重启次数
 });
 
 // 监听安装事件
