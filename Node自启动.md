@@ -29,7 +29,7 @@ svc.on('uninstall',()=>{
 	console.log('The service exists: ', svc.exists);
 })
 
-// 防止程序运行两次
+// 防止程序运行两次 
 svc.on('already installed',()=>{
 	console.log('The service is already installed');
 })
