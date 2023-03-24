@@ -1,6 +1,6 @@
 ### Node项目开机自启动
-1. 在需要自启动的项目中安装 node-windows 模块 `npm install node-windows --save`
-2. 在项目根目录创建nw.js文件
+##### 1. 在需要自启动的项目中安装 node-windows 模块 `npm install node-windows --save`
+##### 2. 在项目根目录创建nw.js文件
 ```
 /**
  * @description: node自启动功能,node nw.js 开启，再次启动为uninstall
@@ -40,10 +40,10 @@ if(svc.exists) return svc.uninstall();
 svc.install();
 ```
 
-3. 运行nw.js文件  命令：`node nw.js` 运行成功后在电脑的服务中就能看到这个服务，现在就可以像普通的windows-server服务一样操作。
+##### 3. 运行nw.js文件  命令：`node nw.js` 运行成功后在电脑的服务中就能看到这个服务，现在就可以像普通的windows-server服务一样操作。
 
-4. 运行node nw.js命令后，会在启动的node文件对应的目录下生成daemon文件夹（包括普通日志，错误日志，配置信息等）。
+##### 4. 运行node nw.js命令后，会在启动的node文件对应的目录下生成daemon文件夹（包括普通日志，错误日志，配置信息等）。
 
-5. 现在就可以连接nodejs项目，Nodejs项目开机自启动基本已完成。再次运行 node nw.js命令会卸载掉我们安装的服务。
+##### 5. 现在就可以连接nodejs项目，Nodejs项目开机自启动基本已完成。再次运行 node nw.js命令会卸载掉我们安装的服务。
 
 资源整理自：https://www.bbsmax.com/A/mo5kQwvEzw/
