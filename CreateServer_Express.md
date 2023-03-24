@@ -1,8 +1,6 @@
 ### 创建 Express 服务方法
-1. install node: `cnpm install node`
-1. install express: `cnpm install express`
-1. 
-
+1. Install node: `cnpm install node`
+2. Install express: `cnpm install express`
 
 #### Demo Code (app.js) 
 ```
@@ -33,3 +31,5 @@ app.listen(8001,()=>{
     console.log('运行在 http://192.168.1.123:8001/');
 })
 ```
+
+3. Start server：`node app.js`
