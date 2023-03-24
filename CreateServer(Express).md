@@ -1,6 +1,6 @@
 ### 创建 Express 服务方法
-1. Install node: `cnpm install node`
-2. Install express: `cnpm install express`
+##### 1. Install node: `cnpm install node`
+##### 2. Install express: `cnpm install express`
 
 #### Demo Code (app.js) 
 ```
@@ -32,4 +32,4 @@ app.listen(8001,()=>{
 })
 ```
 
-3. Start server：`node app.js`
+##### 3. Start server：`node app.js`
