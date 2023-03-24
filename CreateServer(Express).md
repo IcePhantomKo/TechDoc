@@ -2,10 +2,13 @@
 ##### 1. Install node: `cnpm install node`
 ##### 2. Install express: `cnpm install express`
 
-#### Demo Code (app.js) 
+#### 在目录下创建app.js文件，代码如下 
 ```
+// 导入express模块
 const express = require('express');
+// 导入cors解决跨域问题模块
 const cors = require('cors');
+// 导入bodyParser模块
 const bodyParser = require('body-parser')
 
 const app = express();
@@ -16,9 +19,11 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json());
 app.use(cors());
 
+// GET请求例子
 app.get('/',(req,res)=>{
     res.send('Welcome');
 })
+// POST请求 localhost:8001/subEvent 接口请求
 app.post('/subEvent',(req,res)=>{
     res.send({
         statusCode:200,
