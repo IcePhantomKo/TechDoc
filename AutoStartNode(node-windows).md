@@ -47,4 +47,4 @@ svc.install();
 
 5. 现在就可以连接nodejs项目，Nodejs项目开机自启动基本已完成。再次运行 node nw.js命令会卸载掉我们安装的服务。
 
-资源来源：https://www.bbsmax.com/A/mo5kQwvEzw/
+资源整理自：https://www.bbsmax.com/A/mo5kQwvEzw/
