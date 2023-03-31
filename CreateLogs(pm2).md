@@ -4,7 +4,7 @@
 ```
 {
   "script": "app.js",
-  "instances": 1,
+  "instances": 1,   // 添加的进程数量
   "error_file": "./splitLog/错误信息.log",
   "out_file": "./splitLog/日志信息.log",
   "log_date_format": "YYYY-MM-DD hh:mm:ss"
