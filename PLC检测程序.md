@@ -1,11 +1,16 @@
-### 网络拓扑图Part（Topology）
-- #### 主页
+### PLC 故障检测系统
+- #### 主页 http://localhost:8082/#/homePage
 1. PLC & 交换机故障率：**WebSocket** 从 **RDB** 获取
 1. 故障率：**Node** 接口调取 **MySQL** 获取
 1. 实时报警：**WebSocket** 从 **CxView** 获取
 
-- #### 网络拓扑图
+- #### 网络拓扑图 http://localhost:8082/#/topology
+##### 需要的数据：获取 `PLC & 交换机 IP 地址` 和 `状态`
+##### 设计：plc & 交换机分布在 `左洞 右洞 和中间（变电站）`
 
+1. 获取底部导航栏 index number
+2. 获取左侧导航栏 index number
+3. 结合两项去查询 ip 地址 & 状态 
 
 
 - #### 设计思路
