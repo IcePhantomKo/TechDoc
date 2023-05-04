@@ -1,5 +1,6 @@
 ### PLC 故障检测系统
 #### 主页 http://localhost:8082/#/homePage
+- ##### 需要的数据：plc & 交换机当前故障率、历史故障率、实时报警
 1. PLC & 交换机故障率：**WebSocket** 从 **RDB** 获取
 1. 故障率：**Node** 接口调取 **MySQL** 获取
 1. 实时报警：**WebSocket** 从 **CxView** 获取
