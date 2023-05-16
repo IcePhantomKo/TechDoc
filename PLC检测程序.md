@@ -20,6 +20,7 @@
 
 #### 网络拓扑图 http://localhost:8082/#/topology
 - ##### 需要的数据：获取 `PLC & 交换机 IP 地址` 和 `状态`
+- ##### 数据来源: MySQL中 `plc_association`
 - ##### 设计：plc & 交换机分布在 `左洞 右洞 和中间（变电站）`
 
 1. 获取底部导航栏 `index number`
