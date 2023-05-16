@@ -4,6 +4,12 @@
 - 用户权限来切割
 - ？
 
+#### 配置：
+- `plc_association` 对应 **网络拓扑图**
+- `auto_system_device_list` 对应 **接入信息**
+- `alarmrecord` 对应 **报警信息**
+- `plc_diagnosis` 对应 **一键巡查**
+
 #### 主页 http://localhost:8082/#/homePage
 - ##### 需要的数据：plc & 交换机当前故障率、历史故障率、实时报警
 1. PLC & 交换机故障率：**WebSocket** 从 **RDB** 获取
